@@ -1,0 +1,11 @@
+#include "martini_v2.2.itp"
+#include "martini_v2.0_ions.itp"
+#include "ALK1.itp"
+
+[ system ]
+; name
+Martini system from ALK1.pdb in water
+
+[ molecules ]
+; name        number
+ALK1          20

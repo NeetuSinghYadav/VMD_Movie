@@ -1,0 +1,115 @@
+; MARTINI (martini22) Coarse Grained topology file for "ALK1"
+; Created by py version 2.6_3 
+; Using the following options:  -f ALK1.pdb -o ALK1.top -x ALK1_CG.pdb -name ALK1 -ff martini22 -nt
+; Sequence:
+; AEAEAEAEAEAEKKKK
+; Secondary Structure:
+; CCCCCCCCCCCCCCCC
+
+[ moleculetype ]
+; Name         Exclusions
+ALK1              1
+
+[ atoms ]
+    1    P4     1   ALA    BB     1  0.0000 ; C
+    2    P5     2   GLU    BB     2  0.0000 ; C
+    3    Qa     2   GLU   SC1     3 -1.0000 ; C
+    4    P4     3   ALA    BB     4  0.0000 ; C
+    5    P5     4   GLU    BB     5  0.0000 ; C
+    6    Qa     4   GLU   SC1     6 -1.0000 ; C
+    7    P4     5   ALA    BB     7  0.0000 ; C
+    8    P5     6   GLU    BB     8  0.0000 ; C
+    9    Qa     6   GLU   SC1     9 -1.0000 ; C
+   10    P4     7   ALA    BB    10  0.0000 ; C
+   11    P5     8   GLU    BB    11  0.0000 ; C
+   12    Qa     8   GLU   SC1    12 -1.0000 ; C
+   13    P4     9   ALA    BB    13  0.0000 ; C
+   14    P5    10   GLU    BB    14  0.0000 ; C
+   15    Qa    10   GLU   SC1    15 -1.0000 ; C
+   16    P4    11   ALA    BB    16  0.0000 ; C
+   17    P5    12   GLU    BB    17  0.0000 ; C
+   18    Qa    12   GLU   SC1    18 -1.0000 ; C
+   19    P5    13   LYS    BB    19  0.0000 ; C
+   20    C3    13   LYS   SC1    20  0.0000 ; C
+   21    Qd    13   LYS   SC2    21  1.0000 ; C
+   22    P5    14   LYS    BB    22  0.0000 ; C
+   23    C3    14   LYS   SC1    23  0.0000 ; C
+   24    Qd    14   LYS   SC2    24  1.0000 ; C
+   25    P5    15   LYS    BB    25  0.0000 ; C
+   26    C3    15   LYS   SC1    26  0.0000 ; C
+   27    Qd    15   LYS   SC2    27  1.0000 ; C
+   28    P5    16   LYS    BB    28  0.0000 ; C
+   29    C3    16   LYS   SC1    29  0.0000 ; C
+   30    Qd    16   LYS   SC2    30  1.0000 ; C
+
+[ bonds ]
+; Backbone bonds
+    1     2      1   0.35000  1250 ; ALA(C)-GLU(C)
+    2     4      1   0.35000  1250 ; GLU(C)-ALA(C)
+    4     5      1   0.35000  1250 ; ALA(C)-GLU(C)
+    5     7      1   0.35000  1250 ; GLU(C)-ALA(C)
+    7     8      1   0.35000  1250 ; ALA(C)-GLU(C)
+    8    10      1   0.35000  1250 ; GLU(C)-ALA(C)
+   10    11      1   0.35000  1250 ; ALA(C)-GLU(C)
+   11    13      1   0.35000  1250 ; GLU(C)-ALA(C)
+   13    14      1   0.35000  1250 ; ALA(C)-GLU(C)
+   14    16      1   0.35000  1250 ; GLU(C)-ALA(C)
+   16    17      1   0.35000  1250 ; ALA(C)-GLU(C)
+   17    19      1   0.35000  1250 ; GLU(C)-LYS(C)
+   19    22      1   0.35000  1250 ; LYS(C)-LYS(C)
+   22    25      1   0.35000  1250 ; LYS(C)-LYS(C)
+   25    28      1   0.35000  1250 ; LYS(C)-LYS(C)
+; Sidechain bonds
+    2     3      1   0.40000  5000 ; GLU
+    5     6      1   0.40000  5000 ; GLU
+    8     9      1   0.40000  5000 ; GLU
+   11    12      1   0.40000  5000 ; GLU
+   14    15      1   0.40000  5000 ; GLU
+   17    18      1   0.40000  5000 ; GLU
+   19    20      1   0.33000  5000 ; LYS
+   20    21      1   0.28000  5000 ; LYS
+   22    23      1   0.33000  5000 ; LYS
+   23    24      1   0.28000  5000 ; LYS
+   25    26      1   0.33000  5000 ; LYS
+   26    27      1   0.28000  5000 ; LYS
+   28    29      1   0.33000  5000 ; LYS
+   29    30      1   0.28000  5000 ; LYS
+
+[ constraints ]
+
+[ angles ]
+; Backbone angles
+    1     2     4      2    127    20 ; ALA(C)-GLU(C)-ALA(C)
+    2     4     5      2    127    20 ; GLU(C)-ALA(C)-GLU(C)
+    4     5     7      2    127    20 ; ALA(C)-GLU(C)-ALA(C)
+    5     7     8      2    127    20 ; GLU(C)-ALA(C)-GLU(C)
+    7     8    10      2    127    20 ; ALA(C)-GLU(C)-ALA(C)
+    8    10    11      2    127    20 ; GLU(C)-ALA(C)-GLU(C)
+   10    11    13      2    127    20 ; ALA(C)-GLU(C)-ALA(C)
+   11    13    14      2    127    20 ; GLU(C)-ALA(C)-GLU(C)
+   13    14    16      2    127    20 ; ALA(C)-GLU(C)-ALA(C)
+   14    16    17      2    127    20 ; GLU(C)-ALA(C)-GLU(C)
+   16    17    19      2    127    20 ; ALA(C)-GLU(C)-LYS(C)
+   17    19    22      2    127    20 ; GLU(C)-LYS(C)-LYS(C)
+   19    22    25      2    127    20 ; LYS(C)-LYS(C)-LYS(C)
+   22    25    28      2    127    20 ; LYS(C)-LYS(C)-LYS(C)
+; Backbone-sidechain angles
+    1     2     3      2    100    25 ; ALA(C)-GLU(C) SBB
+    4     5     6      2    100    25 ; ALA(C)-GLU(C) SBB
+    7     8     9      2    100    25 ; ALA(C)-GLU(C) SBB
+   10    11    12      2    100    25 ; ALA(C)-GLU(C) SBB
+   13    14    15      2    100    25 ; ALA(C)-GLU(C) SBB
+   16    17    18      2    100    25 ; ALA(C)-GLU(C) SBB
+   17    19    20      2    100    25 ; GLU(C)-LYS(C) SBB
+   19    22    23      2    100    25 ; LYS(C)-LYS(C) SBB
+   22    25    26      2    100    25 ; LYS(C)-LYS(C) SBB
+   25    28    29      2    100    25 ; LYS(C)-LYS(C) SBB
+; Sidechain angles
+   19    20    21      2    180    25 ; LYS
+   22    23    24      2    180    25 ; LYS
+   25    26    27      2    180    25 ; LYS
+   28    29    30      2    180    25 ; LYS
+
+[ dihedrals ]
+; Backbone dihedrals
+; Sidechain improper dihedrals
